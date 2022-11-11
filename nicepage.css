@@ -38416,26 +38416,36 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 80px;
+  min-height: 69px;
 }
 
 .u-header .u-menu-1 {
-  margin: 31px -93px 31px auto;
+  margin: 26px -93px 26px auto;
 }
 
 .u-header .u-nav-1 {
   font-weight: 700;
   font-family: Actor;
   font-size: 1rem;
-  letter-spacing: normal;
   text-transform: none;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
   font-size: 1.25rem;
 }
-
-
+@media (max-width: 1199px) {
+  .u-header .u-menu-1 {
+    width: auto;
+    margin-right: -31px;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 991px) {
+  .u-header .u-menu-1 {
+    margin-right: -31px;
+  }
+}
 
 
  .u-footer {
